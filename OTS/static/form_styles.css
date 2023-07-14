@@ -1,0 +1,42 @@
+form{
+    box-sizing:border-box;
+    border-radius:10px;
+    background-color: #AFD275;
+    display: table;
+    width : 100%;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+input{
+    display: block;
+    width:100%;
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: large;
+}
+
+.question{
+    font-size: larger;
+    color: #456705;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    /* margin-bottom: 30px; */
+}
+
+.options input{
+    display:inline;
+    width:fit-content;
+    height:10px;
+}
+
+.qp{
+    margin-bottom: 50px;
+}
+
+input[type="radio"] {
+    transform: scale(1.5); /* Increase the scale factor as desired */
+}
+
+

@@ -1,0 +1,43 @@
+{% extends 'main.html' %}
+
+{% block title %} Welcome to Online Testing System {% endblock title%}
+{% block top %}
+<a href="{% url 'OTS:registrationForm' %}">Signup</a>
+<a href="{% url 'OTS:login' %}">Login</a>
+{% endblock %}
+
+{% block content %}
+<h2>
+    Welcome to our Online Testing System!
+</h2>
+<p>Our Online Testing System is designed to provide you with a seamless and convenient way to take tests and assessments from the comfort of your own home or anywhere with an internet connection. Whether you're a student, a professional, or someone looking to evaluate their knowledge, our platform offers a wide range of tests to meet your needs.
+</p>
+
+<h4>Here are some of the benefits you can enjoy by using our Online Testing System:
+</h4>
+
+<p>Flexibility: Take tests at your own pace and convenience. No need to worry about fixed schedules or physical locations.
+</p>
+<p>Accessibility: Access the platform from anywhere, anytime, using your computer, tablet, or smartphone.
+</p>
+<p>Diverse Test Categories: Our platform covers a broad range of subjects and disciplines, ensuring there's a test available for your specific area of interest or study.
+</p>
+<p>Instant Results: Receive immediate feedback and test scores upon completing each assessment.
+</p>
+
+<h4>Using our Online Testing System is easy:</h4>
+
+<p>Register for an account: Sign up for a free account to get started. Provide your basic information and create a secure login.
+</p>
+<p>Browse Test Categories: Explore our diverse categories and find the test that matches your needs.
+</p>
+<p>Start the Test: Begin the test whenever you're ready. Follow the instructions provided and answer the questions to the best of your knowledge.
+</p>
+<p>Get Immediate Results: Once you complete the test, your results will be calculated instantly, giving you a clear overview of your performance.
+</p>
+<p>Analyze Your Performance: Review your answers, examine the detailed results, and learn from your strengths and weaknesses.
+</p>
+
+<h3>Get ready to embark on your testing journey and unlock your true potential with our Online Testing System. Sign up today and take the first step toward achieving your goals.
+</h3>
+{% endblock %}
